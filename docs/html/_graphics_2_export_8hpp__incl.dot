@@ -1,0 +1,10 @@
+digraph "C:/Users/a.fornero/Documents/Projet C++/Cmake/out/build/x86-debug/vcpkg_installed/x86-windows/include/SFML/Graphics/Export.hpp"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="C:/Users/a.fornero\l/Documents/Projet C\l++/Cmake/out/build/x86\l-debug/vcpkg_installed\l/x86-windows/include/SFML\l/Graphics/Export.hpp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SFML/Config.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_config_8hpp.html",tooltip=" "];
+}

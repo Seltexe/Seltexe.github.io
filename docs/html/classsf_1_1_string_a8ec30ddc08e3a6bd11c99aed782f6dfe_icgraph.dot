@@ -1,0 +1,15 @@
+digraph "sf::String::begin"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="sf::String::begin",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return an iterator to the beginning of the string."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sf::String::fromUtf16",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsf_1_1_string.html#a81f70eecad0000a4f2e4d66f97b80300",tooltip="Create a new sf::String from a UTF-16 encoded string."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sf::String::fromUtf32",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsf_1_1_string.html#ab023a4900dce37ee71ab9e29b30a23cb",tooltip="Create a new sf::String from a UTF-32 encoded string."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sf::String::fromUtf8",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsf_1_1_string.html#aa7beb7ae5b26e63dcbbfa390e27a9e4b",tooltip="Create a new sf::String from a UTF-8 encoded string."];
+}
